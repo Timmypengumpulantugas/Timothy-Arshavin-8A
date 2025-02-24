@@ -1,0 +1,85 @@
+header {
+    border: 1px solid brown;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1{
+    color: red;
+}
+
+header p {
+    font-style: italic;
+}
+
+header img {
+    width: 50%;
+    border: 3px solid red;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px orange;
+}
+
+header img:hover {
+    transform: scale(.9);
+    transition: all .3s ease-in-out;
+}
+header button {
+    display: block;
+    margin: 30px auto;
+    padding: 12px 30px;
+    background-color: red;
+    color: antiquewhite;
+    border: none;
+}
+header button:hover {
+    background-color: antiquewhite;
+    color: red;
+    border: 1px solid red;
+    transform: scale(.9);
+    transition: all .3s ease-in-out;
+}
+
+#about {
+    width: 95%;
+    margin: 40px auto;
+    display: flex;
+}
+
+.left-about img {
+    width: 50%;
+}
+.left-about img {
+    width: 40%;
+    border-radius: 50px 0;
+    margin-left: 100px;
+    box-shadow: 3px 3px 12px gray;
+}
+.right-about {
+    width: 50%;
+    padding: 40px;
+}
+#project {
+    width: 90%;
+    margin: 30px auto;
+    border: 1px solid gray;
+    text-align: center;
+}
+#project h2 {
+    color: blue;
+}
+
+.project image {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.project-image img {
+    width: 25%;
+    padding: 20px;
+    margin: 0 auto;
+}
+.project-image img:hover {
+    transform: scale(.9);
+    transition: all.3s ease-in-out;
+    box-shadow: 4px 4px 10px red;
+}
